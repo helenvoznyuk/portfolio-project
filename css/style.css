@@ -1,2 +1,30 @@
-/* font-family: 'Monofett', cursive;
-font-family: 'Roboto', sans-serif; */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  padding-top: 350px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 60px;
+}
+#project-button {
+  display: block;
+  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 12px;
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar-color {
+  background-color: #ffffff;
+}
