@@ -1,11 +1,27 @@
-body {
-  font-family: Montserrat, Tahoma, Arial, sans-serif;
-}
-
 :root {
   --primary-color: #000000;
   --secondary-color: #ffffff;
   --text-color: #979797;
+}
+
+body {
+  font-family: Montserrat, Tahoma, Arial, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 20px;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 1.8;
 }
 
 .hero {
@@ -37,24 +53,8 @@ body {
   background-color: var(--secondary-color);
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 35px;
-  margin-top: 60px;
-}
-
 .guitars {
   display: block;
   margin: 0 auto;
   margin-top: 60px;
-}
-
-p {
-  font-size: 20px;
-  max-width: 1000px;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  line-height: 1.8;
 }
