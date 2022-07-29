@@ -2,20 +2,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --text-color: #979797;
+}
+
 .hero {
-  background-color: #000000;
+  background-color: var(--primary-color);
 }
 
 .main-title {
   text-align: center;
-  color: #ffffff;
+  color: var(--secondary-color);
   font-weight: bold;
   font-size: 50px;
 }
 .logo {
   display: block;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 120px;
   margin-bottom: 60px;
 }
 #project-button {
@@ -28,6 +34,5 @@ body {
   max-width: 500px;
 }
 .navbar-color {
-  background-color: #ffffff;
-  color: #979797;
+  background-color: var(--secondary-color);
 }
