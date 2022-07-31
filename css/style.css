@@ -45,34 +45,6 @@ nav a {
   padding-right: 5px;
 }
 
-#nav-main {
-  margin-left: 10px;
-}
-
-#nav-left {
-  margin-right: 10px;
-}
-
-nav li.active a {
-  color: lightgray;
-}
-
-nav li.active a:hover {
-  color: white;
-}
-
-nav a:hover {
-  color: white;
-}
-
-#home-button {
-  margin-left: 30px;
-}
-
-.contact-page {
-  max-width: 1000px;
-}
-
 p.description {
   font-size: 20px;
   max-width: 1000px;
@@ -87,6 +59,40 @@ p.details {
   font-size: 25px;
 
   line-height: 1.8;
+}
+
+h3.contact-details,
+a.network {
+  text-align: start;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+#contact-title,
+h3.contact-details,
+a.network {
+  margin-left: 100px;
+}
+
+footer .social-links a {
+  margin: 0 20px 0 20px;
+  color: var(--dark-background);
+  font-size: 20px;
+}
+
+footer .social-links-dark a {
+  margin: 0 20px 0 20px;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.contact-section {
+  margin-top: 100px;
+}
+
+.contact-page {
+  max-width: 1000px;
 }
 
 .hero {
@@ -106,15 +112,6 @@ p.details {
   margin-bottom: 60px;
 }
 
-#project-button {
-  display: block;
-  margin: 0 auto;
-  padding: 12px;
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
-  max-width: 500px;
-}
 .navbar-color {
   background-color: var(--secondary-color);
 }
@@ -133,6 +130,32 @@ p.details {
   max-width: 300px;
   margin-bottom: 60px;
   font-size: 18px;
+}
+
+.about-section {
+  margin-top: 50px;
+}
+
+#project-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+#nav-main {
+  margin-left: 10px;
+}
+
+#nav-left {
+  margin-right: 10px;
+}
+
+#home-button {
+  margin-left: 30px;
 }
 
 #my-portrait {
@@ -161,10 +184,6 @@ p.details {
   margin-bottom: 200px;
 }
 
-.about-section {
-  margin-top: 50px;
-}
-
 #about-me {
   text-align: start;
   font-size: 20px;
@@ -178,18 +197,6 @@ p.details {
   font-size: 60px;
   font-weight: bold;
   margin-top: 48px;
-}
-
-footer .social-links a {
-  margin: 0 20px 0 20px;
-  color: var(--dark-background);
-  font-size: 20px;
-}
-
-footer .social-links-dark a {
-  margin: 0 20px 0 20px;
-  color: var(--secondary-color);
-  font-size: 20px;
 }
 
 #follow {
@@ -206,42 +213,19 @@ footer .social-links-dark a {
   margin-bottom: 150px;
 }
 
-h3.contact-details,
-a.network {
-  text-align: start;
-  font-size: 25px;
-  font-weight: normal;
-  margin-top: 40px;
+nav li.active a {
+  color: lightgray;
 }
 
-#contact-title,
-h3.contact-details,
-a.network {
-  margin-left: 100px;
+nav li.active a:hover {
+  color: white;
 }
 
-.contact-section {
-  margin-top: 100px;
+nav a:hover {
+  color: white;
 }
 
 @media (max-width: 720px) {
-  .main-title {
-    font-size: 35px;
-  }
-
-  .logo {
-    margin-top: 80px;
-    margin-bottom: 50px;
-  }
-
-  #project-button {
-    padding: 10px;
-    margin-top: 60px;
-    font-weight: bold;
-    font-size: 15px;
-    max-width: 300px;
-  }
-
   h2 {
     font-weight: bold;
     font-size: 30px;
@@ -257,15 +241,51 @@ a.network {
     margin-right: 10px;
   }
 
+  p.details {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
   img.preview {
-    max-width: 80%;
+    max-width: 100%;
+  }
+
+  h3.contact-details,
+  a.network {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  #contact-title,
+  h3.contact-details,
+  a.network {
+    margin-left: 20px;
+  }
+
+  .about-section {
+    margin-top: 0;
+  }
+
+  .main-title {
+    font-size: 35px;
+  }
+
+  .logo {
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
 
   .guitars {
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    max-width: 100%;
   }
+
+  .contact-section {
+    margin-top: 40px;
+  }
+
   #my-portrait {
     margin-top: 15px;
   }
@@ -299,17 +319,12 @@ a.network {
     margin-bottom: 100px;
   }
 
-  p.details {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
-  img.preview {
-    max-width: 100%;
-  }
-
-  .about-section {
-    margin-top: 0;
+  #project-button {
+    padding: 10px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    max-width: 300px;
   }
 
   #contact-title {
@@ -317,19 +332,8 @@ a.network {
 
     margin-top: 15px;
   }
-  h3.contact-details,
-  a.network {
-    font-size: 20px;
-    font-weight: normal;
-  }
 
-  #contact-title,
-  h3.contact-details,
-  a.network {
-    margin-left: 20px;
-  }
-
-  .contact-section {
-    margin-top: 40px;
+  #contact-button {
+    margin-bottom: 40px;
   }
 }
