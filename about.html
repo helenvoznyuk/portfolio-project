@@ -35,29 +35,24 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-color">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Helen Voznyuk</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/project.html">Project</a>
-            <a class="nav-link" href="/about.html">About me</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </div>
-        </div>
-      </div>
+    <nav class="d-flex justify-content-between">
+      <a href="/about.html" id="nav-main" class="d-none d-sm-block"
+        >Coded by Helen Voznyuk</a
+      >
+      <ul>
+        <li id="home-button">
+          <a href="/"> Home</a>
+        </li>
+        <li>
+          <a href="/project.html">Project</a>
+        </li>
+        <li class="active">
+          <a href="/about.html">About me</a>
+        </li>
+        <li>
+          <a href="/contact.html" id="nav-left">Contact</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container about-section">
