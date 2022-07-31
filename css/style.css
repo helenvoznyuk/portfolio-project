@@ -14,13 +14,23 @@ h2 {
   margin-top: 60px;
 }
 
-#product-description {
+.contact-page {
+  max-width: 1000px;
+}
+
+p.description {
   font-size: 20px;
   max-width: 1000px;
   text-align: center;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 1.8;
+}
+
+p.details {
+  font-size: 25px;
+
   line-height: 1.8;
 }
 
@@ -71,12 +81,14 @@ h2 {
   max-width: 70%;
   display: block;
   margin: 0 auto;
+  margin-top: 48px;
 }
 
 #full-name {
   font-size: 60px;
   font-weight: bold;
   margin: 0;
+  margin-top: 48px;
 }
 
 #my-title {
@@ -125,7 +137,7 @@ h2 {
     margin-top: 35px;
   }
 
-  #product-description {
+  p.description {
     font-size: 17px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -133,16 +145,24 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  img.preview {
+    max-width: 80%;
+  }
+
   .guitars {
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
   }
-
+  #my-portrait {
+    margin-top: 15px;
+  }
   #full-name {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    margin-top: 15px;
   }
 
   #my-title {
@@ -165,5 +185,10 @@ h2 {
     padding: 12px 100px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .about-section {
+    margin-top: 0;
   }
 }
